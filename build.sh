@@ -2,7 +2,7 @@
 
 set -eux
 
-COQ_VER="${1:-8.13.0}"
+COQ_VER="${1:-8.17.0}"
 
 IMAGE=coq-docset-dash-image:"${COQ_VER//+/-}"
 CONTAINER=coq-docset-dash-container-"${COQ_VER//+/-}"
